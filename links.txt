@@ -1,0 +1,35 @@
+https://www.nytimes.com/2022/05/25/business/gun-makers-stock.html
+https://www.nytimes.com/2017/10/03/business/gun-stocks-vegas-shooting-trump.html
+https://www.businessinsider.com/walmart-bass-pro-dicks-sporting-goods-stores-that-sell-guns-2019-8?amp
+
+
+result <- poi[(grepl("gun|firearm|ammo|arm", CATEGORY_TAGS, ignore.case = TRUE)|
+ (grepl("gun|firearm|ammo|arm", LOCATION_NAME, ignore.case = TRUE)) | 
+ (grepl("Sportsman's Warehouse|Dick's Sporting Goods|Bass Pro Shops|Cabela's|Camping World|Gander Outdoors|Academy Sports|Big 5 Sporting Goods|Dunham's Sports|Sportsman's Warehouse|Scheels", LOCATION_NAME, ignore.case = TRUE))) & SUB_CATEGORY=="Sporting Goods Stores"]
+
+
+Sportsman's Warehouse
+Dick's Sporting Goods
+Field & Stream
+Bass Pro Shops
+Cabela's
+Camping World
+Gander Outdoors
+Academy Sports
+Big 5 Sporting Goods
+Dunham's Sports
+Sportsman's Warehouse
+Scheels
+
+Dick's Sporting Goods
+Field & Stream
+Bass Pro Shops
+Cabela's
+Camping World
+Gander Outdoors
+Academy Sports and Outdoors
+L.L. Bean
+Big 5 Sporting Goods
+Dunham's Sports
+Sportsman's Warehouse
+Scheels
